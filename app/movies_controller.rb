@@ -21,8 +21,11 @@ def can_be_created_with_a_hash_of_attributes
       in_theaters: false
   }
   movie = Movie.new(attributes)
+<<<<<<< HEAD
   movie.save
   movie
+=======
+>>>>>>> f72a524802c5688e1c01713d7fc1a7c3556a5779
 end
 
 def can_be_created_in_a_block(args = {title: "Home Alone", release_date: 1990})
